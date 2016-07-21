@@ -1,0 +1,37 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+//        applicationId "org.mousebomb.ane.umeng"
+        minSdkVersion 19
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            debuggable true
+        }
+    }
+    compileOptions
+            {
+                targetCompatibility JavaVersion.VERSION_1_6
+                sourceCompatibility JavaVersion.VERSION_1_6
+            }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile files('libs/FlashRuntimeExtensions.jar')
+    compile files('libs/umeng-analytics-v6.0.1.jar')
+    compile files('libs/utdid4all-1.0.4.jar')
+}

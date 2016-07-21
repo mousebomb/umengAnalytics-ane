@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Umeng" type="flex">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/UMeng.ane!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

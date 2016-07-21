@@ -1,0 +1,17 @@
+<platform xmlns="http://ns.adobe.com/air/extension/17.0"> 
+    <packagedDependencies>
+        <packagedDependency>umeng-analytics-v6.0.1.jar</packagedDependency>
+		<packagedDependency>utdid4all-1.0.4.jar</packagedDependency>
+		<packagedDependency>android-support-v4.jar</packagedDependency>
+    </packagedDependencies> 
+    <packagedResources>
+        <packagedResource>
+            <packageName>org.mousebomb.ane.umeng</packageName> 
+            <folderName>res</folderName>
+        </packagedResource> 
+     <!--<packagedResource> 
+            <packageName>com.google.android.gms</packageName> 
+            <folderName>google-play-services-res</folderName> 
+        </packagedResource>-->
+    </packagedResources>
+</platform>
